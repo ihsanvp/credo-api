@@ -1,0 +1,23 @@
+{
+  "name": "credo-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node build/server.js",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
